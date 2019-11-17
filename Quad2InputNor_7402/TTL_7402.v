@@ -1,6 +1,6 @@
 
 // Description:
-// 7402 Quad Nor module
+// 74LS02 Quad Nor module
 //
 `timescale 1ns/10ps
 

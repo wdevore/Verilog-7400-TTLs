@@ -1,6 +1,6 @@
 
 // Description:
-// 7400 Quad Nand module
+// 74LS00 Quad Nand module
 //
 `timescale 1ns/10ps
 

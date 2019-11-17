@@ -1,6 +1,6 @@
 
 // Description:
-// 7404 Hex Inverter module
+// 74LS04 Hex Inverter module
 //
 `timescale 1ns/10ps
 
