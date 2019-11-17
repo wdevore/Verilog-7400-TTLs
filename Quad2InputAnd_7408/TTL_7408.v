@@ -1,10 +1,10 @@
 
 // Description:
-// 74LS32 Quad OR module
+// 74LS08 Quad AND module
 //
 `timescale 1ns/10ps
 
-module TTL_7432 (
+module TTL_7408 (
    input  A1, B1,     // Unit A
    output Y1,
    input  A2, B2,     // Unit B
@@ -15,9 +15,9 @@ module TTL_7432 (
    output Y4
    );
 
-   or #(0:14:22, 0:14:22) (Y1, A1, B1);
-   or #(0:14:22, 0:14:22) (Y2, A2, B2);
-   or #(0:14:22, 0:14:22) (Y3, A3, B3);
-   or #(0:14:22, 0:14:22) (Y4, A4, B4);
+   and #(0:8:15, 0:10:20) (Y1, A1, B1);
+   and #(0:8:15, 0:10:20) (Y2, A2, B2);
+   and #(0:8:15, 0:10:20) (Y3, A3, B3);
+   and #(0:8:15, 0:10:20) (Y4, A4, B4);
 endmodule
 
