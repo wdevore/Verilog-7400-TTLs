@@ -18,28 +18,28 @@ module TTL_tb;
       
       A1 = 0; B1 = 0;
       #23;
-      if (Y1 == 0) begin
+      if (Y1 == 1) begin
          $display("%d %m: ERROR #1 - Status flags Y1 (%d) is not correct for A1 (%d) and B1 (%d).", $stime, Y1, A1, B1);
          $finish;
       end
 
       A1 = 1; B1 = 0;
       #23;
-      if (Y1 == 1) begin
+      if (Y1 == 0) begin
          $display("%d %m: ERROR #2 - Status flags Y1 (%d) is not correct for A1 (%d) and B1 (%d).", $stime, Y1, A1, B1);
          $finish;
       end
 
       A1 = 0; B1 = 1;
       #23;
-      if (Y1 == 1) begin
+      if (Y1 == 0) begin
          $display("%d %m: ERROR #3 - Status flags Y1 (%d) is not correct for A1 (%d) and B1 (%d).", $stime, Y1, A1, B1);
          $finish;
       end
 
       A1 = 1; B1 = 1;
       #23;
-      if (Y1 == 1) begin
+      if (Y1 == 0) begin
          $display("%d %m: ERROR #4 - Status flags Y1 (%d) is not correct for A1 (%d) and B1 (%d).", $stime, Y1, A1, B1);
          $finish;
       end
@@ -50,7 +50,7 @@ module TTL_tb;
    end
 
    // Instances
-   TTL_7402 gate(.A1(A1), .B1(B1), .Y1(Y1), .A2(A2), .B2(B2), .Y2(Y2), .A3(A3), .B3(B3), .Y3(Y3), .A4(A4), .B4(B4), .Y4(Y4));
+   TTL_7432 gate(.A1(A1), .B1(B1), .Y1(Y1), .A2(), .B2(), .Y2(), .A3(), .B3(), .Y3(), .A4(), .B4(), .Y4());
 
 endmodule
 

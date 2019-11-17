@@ -1,10 +1,10 @@
 
 // Description:
-// 74LS00 Quad Nand module
+// 74LS32 Quad OR module
 //
 `timescale 1ns/10ps
 
-module TTL_7400 (
+module TTL_7432 (
    input  A1, B1,     // Unit A
    output Y1,
    input  A2, B2,     // Unit B
@@ -15,9 +15,9 @@ module TTL_7400 (
    output Y4
    );
 
-   not #(15) (Y1, A1 & B1);
-   not #(15) (Y2, A2 & B2);
-   not #(15) (Y3, A3 & B3);
-   not #(15) (Y4, A4 & B4);
+   or #(22) (Y1, A1, B1);
+   or #(22) (Y2, A2, B2);
+   or #(22) (Y3, A3, B3);
+   or #(22) (Y4, A4, B4);
 endmodule
 

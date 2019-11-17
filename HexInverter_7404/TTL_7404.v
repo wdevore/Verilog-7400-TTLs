@@ -19,7 +19,6 @@ module TTL_7404 (
    output Y6
    );
 
-   // 15ns rise and fall
    not #(15) (Y1, A1);
    not #(15) (Y2, A2);
    not #(15) (Y3, A3);
