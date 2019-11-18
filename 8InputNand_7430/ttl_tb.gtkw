@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.101 (w)1999-2019 BSI
+[*] Mon Nov 18 02:16:42 2019
+[*]
+[dumpfile] "/home/iposthuman/Documents/Hardware/TinyFPGAB2/Verilog-7400-TTLs/8InputNand_7430/ttl_tb.vcd"
+[dumpfile_mtime] "Mon Nov 18 02:16:19 2019"
+[dumpfile_size] 12144
+[savefile] "/home/iposthuman/Documents/Hardware/TinyFPGAB2/Verilog-7400-TTLs/8InputNand_7430/ttl_tb.gtkw"
+[timestart] 0
+[size] 1926 679
+[pos] -1 -1
+*-15.409857 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TTL_tb.
+[sst_width] 229
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 170
+@28
+TTL_tb.A
+TTL_tb.B
+TTL_tb.C
+TTL_tb.D
+TTL_tb.E
+TTL_tb.F
+TTL_tb.G
+TTL_tb.H
+@29
+TTL_tb.Y
+[pattern_trace] 1
+[pattern_trace] 0
