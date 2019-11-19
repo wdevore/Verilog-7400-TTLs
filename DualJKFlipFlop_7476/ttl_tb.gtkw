@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.101 (w)1999-2019 BSI
+[*] Tue Nov 19 23:08:45 2019
+[*]
+[dumpfile] "/home/iposthuman/Documents/Hardware/TinyFPGAB2/Verilog-7400-TTLs/DualJKFlipFlop_7476/ttl_tb.vcd"
+[dumpfile_mtime] "Tue Nov 19 20:24:43 2019"
+[dumpfile_size] 13792
+[savefile] "/home/iposthuman/Documents/Hardware/TinyFPGAB2/Verilog-7400-TTLs/DualJKFlipFlop_7476/ttl_tb.gtkw"
+[timestart] 0
+[size] 1926 679
+[pos] 560 178
+*-18.174139 757000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TTL_tb.
+[sst_width] 229
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 170
+@28
+[color] 2
+TTL_tb.clk
+[color] 3
+TTL_tb.PRE1
+[color] 3
+TTL_tb.CLR1
+TTL_tb.J1
+TTL_tb.K1
+[color] 6
+TTL_tb.Q1
+[color] 6
+TTL_tb.Q1N
+@29
+TTL_tb.t1
+@28
+TTL_tb.t1n
+[pattern_trace] 1
+[pattern_trace] 0
